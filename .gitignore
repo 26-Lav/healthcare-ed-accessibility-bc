@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data files (too large for git)
+data/raw/
+data/processed/
+
+# Results/outputs
+results/
+
+# PyCharm .idea folder
+.idea/
