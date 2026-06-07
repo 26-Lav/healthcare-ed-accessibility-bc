@@ -4,7 +4,7 @@ ML analysis of ED/UPCC accessibility in BC
 
 # Healthcare ED Accessibility BC
 
-Predicting ED/UPCC wait times and analyzing health equity 
+Predicting ED/UPCC wait times and analyzing where the next ED Location should be 
 across BC using ML, data engineering, and cloud platforms.
 
 ## Datasets

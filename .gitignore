@@ -226,3 +226,7 @@ results/
 
 # PyCharm .idea folder
 .idea/
+
+# Environment variables - contains Azure keys, never commit this
+.env
+.env.local
