@@ -157,6 +157,20 @@ ENV/
 env.bak/
 venv.bak/
 
+
+# New virtual environment
+.venv311/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Results folder (generated files, not source code)
+results/
+
+# macOS system files
+.DS_Store
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
