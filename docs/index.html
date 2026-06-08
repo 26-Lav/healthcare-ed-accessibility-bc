@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0b805b82952aa7264f480acf7f318e47 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0b805b82952aa7264f480acf7f318e47" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0b805b82952aa7264f480acf7f318e47 = L.map(
+                "map_0b805b82952aa7264f480acf7f318e47",
+                {
+                    center: [54.0, -124.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_42236560e26907eb2bc6989e0909e0dd = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_42236560e26907eb2bc6989e0909e0dd.addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+            var circle_marker_e49bf45593c909d7e1c9651222dcec23 = L.circleMarker(
+                [54.7, -127.11],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_3946d39789d5659fbc22d2e19819ab5d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_97e74517af33a762d1f0819bf3163443 = $(`<div id="html_97e74517af33a762d1f0819bf3163443" style="width: 100.0%; height: 100.0%;"><b>Tier 1 — New ED recommended</b><br>FSA: V1J<br>Area: Peace River C<br>Distance to nearest ED: 657.9 km<br>Population: 5,947<br>Score: 0.243</div>`)[0];
+                popup_3946d39789d5659fbc22d2e19819ab5d.setContent(html_97e74517af33a762d1f0819bf3163443);
+            
+        
+
+        circle_marker_e49bf45593c909d7e1c9651222dcec23.bindPopup(popup_3946d39789d5659fbc22d2e19819ab5d)
+        ;
+
+        
+    
+    
+            var circle_marker_c9d3dc592adf35f0ce98aabdf3f1b104 = L.circleMarker(
+                [58.3, -126.11],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_08dc0234605292bfb2e10162df5cb175 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_12e18232063d9dfdf608e1fae9723ef2 = $(`<div id="html_12e18232063d9dfdf608e1fae9723ef2" style="width: 100.0%; height: 100.0%;"><b>Tier 1 — New ED recommended</b><br>FSA: V0G<br>Area: Central Kootenay H<br>Distance to nearest ED: 267.9 km<br>Population: 5,045<br>Score: 0.236</div>`)[0];
+                popup_08dc0234605292bfb2e10162df5cb175.setContent(html_12e18232063d9dfdf608e1fae9723ef2);
+            
+        
+
+        circle_marker_c9d3dc592adf35f0ce98aabdf3f1b104.bindPopup(popup_08dc0234605292bfb2e10162df5cb175)
+        ;
+
+        
+    
+    
+            var circle_marker_fb6929e3036cf16f32019660eda0707d = L.circleMarker(
+                [54.5, -123.28],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_c8edde489fef353b6bc5b9423984c05a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c6c18065f4d4403474ec9b94651a4b3a = $(`<div id="html_c6c18065f4d4403474ec9b94651a4b3a" style="width: 100.0%; height: 100.0%;"><b>Tier 1 — New ED recommended</b><br>FSA: V8G<br>Area: Terrace<br>Distance to nearest ED: 504.3 km<br>Population: 12,017<br>Score: 0.222</div>`)[0];
+                popup_c8edde489fef353b6bc5b9423984c05a.setContent(html_c6c18065f4d4403474ec9b94651a4b3a);
+            
+        
+
+        circle_marker_fb6929e3036cf16f32019660eda0707d.bindPopup(popup_c8edde489fef353b6bc5b9423984c05a)
+        ;
+
+        
+    
+    
+            var circle_marker_33153175a04a7123b73dbe887d5c71b3 = L.circleMarker(
+                [54.31, -127.11],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_2385cd57e7a4ab3ca5fae1f1c5f9957a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d52f280d8f3ff04550bcbe9fc5bff48a = $(`<div id="html_d52f280d8f3ff04550bcbe9fc5bff48a" style="width: 100.0%; height: 100.0%;"><b>Tier 2 — New UPCC recommended</b><br>FSA: V1V<br>Area: Kelowna<br>Distance to nearest ED: 197.4 km<br>Population: 144,576<br>Score: 0.207</div>`)[0];
+                popup_2385cd57e7a4ab3ca5fae1f1c5f9957a.setContent(html_d52f280d8f3ff04550bcbe9fc5bff48a);
+            
+        
+
+        circle_marker_33153175a04a7123b73dbe887d5c71b3.bindPopup(popup_2385cd57e7a4ab3ca5fae1f1c5f9957a)
+        ;
+
+        
+    
+    
+            var circle_marker_809b09c3ef1e28598e8bc34a4e47cf6f = L.circleMarker(
+                [56.15, -125.73],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_0ed4301269e65fcd61b8749d8a6c6ccc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_29df2b8f2facc77829768b83908c8711 = $(`<div id="html_29df2b8f2facc77829768b83908c8711" style="width: 100.0%; height: 100.0%;"><b>Tier 2 — New UPCC recommended</b><br>FSA: V2H<br>Area: Kamloops 1<br>Distance to nearest ED: 178.1 km<br>Population: 3,915<br>Score: 0.197</div>`)[0];
+                popup_0ed4301269e65fcd61b8749d8a6c6ccc.setContent(html_29df2b8f2facc77829768b83908c8711);
+            
+        
+
+        circle_marker_809b09c3ef1e28598e8bc34a4e47cf6f.bindPopup(popup_0ed4301269e65fcd61b8749d8a6c6ccc)
+        ;
+
+        
+    
+    
+            var circle_marker_05a84955459221d435c0c3c3b57c06f8 = L.circleMarker(
+                [58.44, -127.11],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_bf9e1245f6c8a4b866165a8a9d2df73d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_76c4ba246a2b711826b13ab3efda8567 = $(`<div id="html_76c4ba246a2b711826b13ab3efda8567" style="width: 100.0%; height: 100.0%;"><b>Tier 2 — New UPCC recommended</b><br>FSA: V1W<br>Area: Kelowna<br>Distance to nearest ED: 184.6 km<br>Population: 144,576<br>Score: 0.197</div>`)[0];
+                popup_bf9e1245f6c8a4b866165a8a9d2df73d.setContent(html_76c4ba246a2b711826b13ab3efda8567);
+            
+        
+
+        circle_marker_05a84955459221d435c0c3c3b57c06f8.bindPopup(popup_bf9e1245f6c8a4b866165a8a9d2df73d)
+        ;
+
+        
+    
+    
+            var circle_marker_3819c07a16d4e598ccfc9ec2177c30fc = L.circleMarker(
+                [54.17, -127.11],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_73c296a478c31fb3b55bb711880edc99 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3a818d730a684193b5ee301d71f815bf = $(`<div id="html_3a818d730a684193b5ee301d71f815bf" style="width: 100.0%; height: 100.0%;"><b>Tier 2 — New UPCC recommended</b><br>FSA: V1Y<br>Area: Kelowna<br>Distance to nearest ED: 192.7 km<br>Population: 144,576<br>Score: 0.197</div>`)[0];
+                popup_73c296a478c31fb3b55bb711880edc99.setContent(html_3a818d730a684193b5ee301d71f815bf);
+            
+        
+
+        circle_marker_3819c07a16d4e598ccfc9ec2177c30fc.bindPopup(popup_73c296a478c31fb3b55bb711880edc99)
+        ;
+
+        
+    
+    
+            var circle_marker_b9323d26e04e4d2f329d933eff538004 = L.circleMarker(
+                [55.68, -126.11],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_84831e81b6339116c26889625951334d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_76856c74a2e5e6ae8683169a687d21b0 = $(`<div id="html_76856c74a2e5e6ae8683169a687d21b0" style="width: 100.0%; height: 100.0%;"><b>Tier 2 — New UPCC recommended</b><br>FSA: V0H<br>Area: Kootenay Boundary E / West Boundary<br>Distance to nearest ED: 145.3 km<br>Population: 3,004<br>Score: 0.196</div>`)[0];
+                popup_84831e81b6339116c26889625951334d.setContent(html_76856c74a2e5e6ae8683169a687d21b0);
+            
+        
+
+        circle_marker_b9323d26e04e4d2f329d933eff538004.bindPopup(popup_84831e81b6339116c26889625951334d)
+        ;
+
+        
+    
+    
+            var circle_marker_75249b4374a8bff2a76112775b2a4a65 = L.circleMarker(
+                [57.36, -127.37],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_6e98ce913693fa3b39ca58aaba3c743a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1335d871d7226edcc6e43faaeabf9bed = $(`<div id="html_1335d871d7226edcc6e43faaeabf9bed" style="width: 100.0%; height: 100.0%;"><b>Tier 3 — Capacity expansion needed</b><br>FSA: V6N<br>Area: Vancouver<br>Distance to nearest ED: 2.4 km<br>Population: 662,248<br>Score: 0.443</div>`)[0];
+                popup_6e98ce913693fa3b39ca58aaba3c743a.setContent(html_1335d871d7226edcc6e43faaeabf9bed);
+            
+        
+
+        circle_marker_75249b4374a8bff2a76112775b2a4a65.bindPopup(popup_6e98ce913693fa3b39ca58aaba3c743a)
+        ;
+
+        
+    
+    
+            var circle_marker_db15336e054aecde5e4c6d78a4a2e0f9 = L.circleMarker(
+                [53.61, -128.49],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_1a6b14108fa4bcc9ce6e9a75f39f8bf9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_062b95f1d1e273924f50654d084055b3 = $(`<div id="html_062b95f1d1e273924f50654d084055b3" style="width: 100.0%; height: 100.0%;"><b>Tier 3 — Capacity expansion needed</b><br>FSA: V5K<br>Area: Vancouver<br>Distance to nearest ED: 2.3 km<br>Population: 662,248<br>Score: 0.443</div>`)[0];
+                popup_1a6b14108fa4bcc9ce6e9a75f39f8bf9.setContent(html_062b95f1d1e273924f50654d084055b3);
+            
+        
+
+        circle_marker_db15336e054aecde5e4c6d78a4a2e0f9.bindPopup(popup_1a6b14108fa4bcc9ce6e9a75f39f8bf9)
+        ;
+
+        
+    
+    
+            var circle_marker_56255b1dbd6627a6d592e6b854862f67 = L.circleMarker(
+                [55.85, -127.37],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_a0592c3b6271ad72c75cdebc2fac7bf2 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_58e83a61bf5e60f36dd561a20fcb851b = $(`<div id="html_58e83a61bf5e60f36dd561a20fcb851b" style="width: 100.0%; height: 100.0%;"><b>Tier 3 — Capacity expansion needed</b><br>FSA: V6L<br>Area: Vancouver<br>Distance to nearest ED: 0.6 km<br>Population: 662,248<br>Score: 0.443</div>`)[0];
+                popup_a0592c3b6271ad72c75cdebc2fac7bf2.setContent(html_58e83a61bf5e60f36dd561a20fcb851b);
+            
+        
+
+        circle_marker_56255b1dbd6627a6d592e6b854862f67.bindPopup(popup_a0592c3b6271ad72c75cdebc2fac7bf2)
+        ;
+
+        
+    
+    
+            var circle_marker_81b0164df98792af614b51202039f5b0 = L.circleMarker(
+                [57.730000000000004, -128.49],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_eae143dd2efddd4b37748b9f9f365e25 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_130510bfcbccb037d680283f502230d2 = $(`<div id="html_130510bfcbccb037d680283f502230d2" style="width: 100.0%; height: 100.0%;"><b>Tier 3 — Capacity expansion needed</b><br>FSA: V5Y<br>Area: Vancouver<br>Distance to nearest ED: 0.6 km<br>Population: 662,248<br>Score: 0.436</div>`)[0];
+                popup_eae143dd2efddd4b37748b9f9f365e25.setContent(html_130510bfcbccb037d680283f502230d2);
+            
+        
+
+        circle_marker_81b0164df98792af614b51202039f5b0.bindPopup(popup_eae143dd2efddd4b37748b9f9f365e25)
+        ;
+
+        
+    
+    
+            var circle_marker_81d134a5135f14fad44cebf7acaf1d57 = L.circleMarker(
+                [55.42, -128.49],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_0b805b82952aa7264f480acf7f318e47);
+        
+    
+        var popup_7386b60792f9bc8dc2384a236bc270f5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4b9702f18338e7fb3041595ebb086f64 = $(`<div id="html_4b9702f18338e7fb3041595ebb086f64" style="width: 100.0%; height: 100.0%;"><b>Tier 3 — Capacity expansion needed</b><br>FSA: V5M<br>Area: Vancouver<br>Distance to nearest ED: 0.6 km<br>Population: 662,248<br>Score: 0.419</div>`)[0];
+                popup_7386b60792f9bc8dc2384a236bc270f5.setContent(html_4b9702f18338e7fb3041595ebb086f64);
+            
+        
+
+        circle_marker_81d134a5135f14fad44cebf7acaf1d57.bindPopup(popup_7386b60792f9bc8dc2384a236bc270f5)
+        ;
+
+        
+    
+</script>
+</html>
