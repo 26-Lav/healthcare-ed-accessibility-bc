@@ -65,6 +65,35 @@ cloud platforms.
 [View Interactive Map](results/q3_recommendations_map.html)
 
 
+
+## Live Demo
+
+Run the interactive web app locally:
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/26-Lav/healthcare-ed-accessibility-bc.git
+cd healthcare-ed-accessibility-bc
+
+# 2. Create virtual environment
+python -m venv .venv
+source .venv/bin/activate  # Mac/Linux
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Add Azure credentials
+# Create a .env file with:
+# AZURE_CONNECTION_STRING=your_connection_string
+# AZURE_CONTAINER_NAME=healthcare-ed-data
+# AZURE_STORAGE_ACCOUNT=healthcaredatabc
+
+# 5. Run the app
+streamlit run app.py
+```
+
+The app will open at `http://localhost:8501`
+
 ## Cloud Architecture
 
 **Pipeline flow:**
