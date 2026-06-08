@@ -232,9 +232,6 @@ __marimo__/
 data/raw/
 data/processed/
 
-# Results/outputs
-results/
-
 # PyCharm .idea folder
 .idea/
 
