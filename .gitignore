@@ -164,9 +164,6 @@ venv.bak/
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
-# Results folder (generated files, not source code)
-results/
-
 # macOS system files
 .DS_Store
 
